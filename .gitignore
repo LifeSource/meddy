@@ -1,0 +1,9 @@
+*~
+*.[oa]
+*.swp
+*.log
+*.tmp
+*.temp
+logs/
+node_modules/
+bower_components/
