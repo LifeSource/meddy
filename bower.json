@@ -1,0 +1,17 @@
+{
+  "name": "meddy",
+  "version": "1.0.0",
+  "homepage": "https://github.com/LifeSource/meddy",
+  "authors": [
+    "Kenrick Wu <kenrick.wu@gmail.com>"
+  ],
+  "description": "A medical web application",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
