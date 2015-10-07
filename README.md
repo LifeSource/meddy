@@ -1,7 +1,7 @@
-#meddy
+# meddy
 A simple demo web application for medical clinics.
 
-#technologies
+# technologies
 - MEAN Stack
 - Git
 - Adobe Photoshop
