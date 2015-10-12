@@ -5,5 +5,6 @@
 *.tmp
 *.temp
 logs/
+temp/
 node_modules/
 bower_components/

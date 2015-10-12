@@ -1,0 +1,9 @@
+.med-container {
+  width: 1336px;
+  margin: 0 auto;
+  border: 1px solid #0a6daa;
+}
+.med-nav {
+  height: 120px;
+  background: #0a6daa;
+}

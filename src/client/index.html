@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Meddy</title>
+
+    <!-- build: styles/lib.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build: styles/app.css -->
+    <!-- inject:css-->
+    <link rel="stylesheet" href="/src/client/css/layout.css">
+    <link rel="stylesheet" href="/src/client/css/site.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+</head>
+<body>
+    
+    <div data-ui-view></div>
+
+    <!-- build: js/lib.js -->
+    <!-- bower:js-->
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-resource/angular-resource.js"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build: js/app.js -->
+    <!-- inject:js-->
+    <script src="/src/client/app/core/core.module.js"></script>
+    <script src="/src/client/app/app.js"></script>
+    <script src="/src/client/app/core/routes.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:template.js -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</body>
+</html>   
