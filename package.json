@@ -41,5 +41,21 @@
     "express": "^4.13.3",
     "mongoose": "^4.1.10",
     "passport": "^0.3.0"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "src/client",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.18.0",
+      "aurelia-framework": "github:aurelia/framework@^0.17.0",
+      "aurelia-http-client": "github:aurelia/http-client@^0.12.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }

@@ -7,4 +7,5 @@
 logs/
 temp/
 node_modules/
+jspm_packages/
 bower_components/

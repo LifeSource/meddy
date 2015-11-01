@@ -1,0 +1,21 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+.main {
+  float: left;
+  width: 70%;
+  height: 500px;
+  background: #ff0;
+}
+.sideBar {
+  float: right;
+  width: 30%;
+  height: 500px;
+  background: #008000;
+}
+.next-app {
+  height: 250px;
+  margin: 80px;
+  background: #f00;
+  opacity: 0.5;
+}

@@ -17,6 +17,28 @@
   "dependencies": {
     "angular": "~1.4.7",
     "angular-resource": "~1.4.7",
-    "angular-ui-router": "ui-router#~0.2.15"
+    "angular-ui-router": "ui-router#~0.2.15",
+    "font-awesome": "~4.4.0",
+    "normalize-css": "normalize.css#~3.0.3",
+    "bootstrap": "~3.3.5"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2",
+        "FontAwesome.otf"
+      ]
+    }
   }
 }

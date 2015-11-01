@@ -1,9 +1,24 @@
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #eee;
+}
+nav ul {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.5em;
+  background: #0a6daa;
+}
+nav ul li {
+  display: inline;
+}
 .med-container {
   width: 1336px;
+  overflow: auto;
   margin: 0 auto;
-  border: 1px solid #0a6daa;
-}
-.med-nav {
-  height: 120px;
-  background: #0a6daa;
+  border: 1px solid #000;
 }

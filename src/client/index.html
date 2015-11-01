@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" data-ng-app="app">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Meddy</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
     <!-- build: styles/lib.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -16,27 +22,31 @@
     <!-- endinject -->
     <!-- endbuild -->
 </head>
-<body>
-    
-    <div data-ui-view></div>
+<body aurelia-app="main">
 
+    
     <!-- build: js/lib.js -->
     <!-- bower:js-->
     <script src="/bower_components/angular/angular.js"></script>
     <script src="/bower_components/angular-resource/angular-resource.js"></script>
     <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build: js/app.js -->
     <!-- inject:js-->
-    <script src="/src/client/app/core/core.module.js"></script>
-    <script src="/src/client/app/app.js"></script>
-    <script src="/src/client/app/core/routes.js"></script>
+    <script src="/jspm_packages/system.js"></script>
+    <script src="/src/client/config.js"></script>
     <!-- endinject -->
+
+    <script type="text/javascript">
+        System.import("aurelia-bootstrapper");
+    </script>
 
     <!-- inject:template.js -->
     <!-- endinject -->
     <!-- endbuild -->
 </body>
-</html>   
+</html>

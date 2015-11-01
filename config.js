@@ -13,6 +13,7 @@ module.exports = function () {
         server = src + "server/",
         build = root + "build/",
         temp = root + "temp/",
+        jspm = root + "jspm_packages/",
         nodeModules = root + "node_modules/",
         bowerComponents = root + "bower_components/",
         ignore = [nodeModules, bowerComponents];
@@ -41,15 +42,11 @@ module.exports = function () {
         siteCss: css + "site.css",
         // JavaScripts
         allJs: [
-            clientApp + "**/*.js",
-            client + "**/*.js",
             root + "*.js"
         ],
         js: [
-            clientApp + "**/*.module.js",
-            clientApp + "**/*.service.js",
-            clientApp + "**/*.js",
-            client + "**/*.js",
+            jspm + "system.js",
+            client + "config.js"
         ],
         // Optimized files
         optimized: {

@@ -1,8 +1,8 @@
 var gulp = require("gulp"),
-    args = require("yargs").argv,
     del = require("del"),
-    browserSync = require("browser-sync"),
     path = require("path"),
+    args = require("yargs").argv,
+    browserSync = require("browser-sync"),
     runSequence = require("run-sequence"),
     $ = require("gulp-load-plugins")({lazy: true});
 
@@ -259,3 +259,4 @@ function log(msg) {
         $.util.log($.util.colors.blue(msg));
     }
 }
+

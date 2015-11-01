@@ -1,0 +1,16 @@
+<template>
+    <nav>
+        <div>
+            <a href="/">
+                <img src="images/logo.png" alt="Logo" />
+            </a>
+        </div>
+        <div>
+            <ul>
+                <li repeat.for="nav of router.navigation">
+                    <a href.bind="nav.href">${nav.title}</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</template>
